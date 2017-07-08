@@ -33,15 +33,17 @@ spiderUrl.py分页爬取文书的id，openlaw每一篇文书都有一个唯一�
 
 - download.get_content(soup) 讲页面内容进行处理返回
 
+```
+{
 
-  ```
- {
   'content': content,# 文书内容
-  'title': title, # 文书标题
-  'header': header # 文书的时间等一些说明
- }
-  ```
 
+  'title': title, # 文书标题
+
+  'header': header # 文书的时间等一些说明
+
+ }
+```
 
 - download.save_content(content_map, id) 将get_content()返回的内容写进文档
 
