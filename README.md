@@ -9,7 +9,7 @@
 - **account.txt** 记录当前使用哪个账户登录openlaw
 - **account/account.txt** 记录所有的openlaw Account，因为openlaw的每个账户每天访问次数限制，所以需要多个账户
 - **account/Y-m-d.txt** 记录某一天哪些账户已经不可以再次访问
-- **cookie.txt** 记录登陆之后的coojie
+- **cookie.txt** 记录登陆之后的cookie
 - **count.txt** 记录已经下载的文书数量
 - **page.txt** 记录爬到了哪一页
 - **ids.txt** 记录每一页爬取下来的文书id
