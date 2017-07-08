@@ -96,4 +96,4 @@ def get_account():
             os._exit(0)
     else:
         f.close()
-        return lines[0]
+        return lines[0].replace('\n', '')
